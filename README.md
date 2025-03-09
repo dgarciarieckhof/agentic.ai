@@ -10,7 +10,11 @@ This repo will serve as a cookbook to explore Generative AI agent use cases and 
 | Web agent | [Vision rover](https://github.com/dgarciarieckhof/agentic.ai/blob/master/notebook/vision_rover.ipynb) | Web automation agent.|                                               |
 
 
-## Instructions
+## Installation  
+```sh
+git clone https://github.com/dgarciarieckhof/media-alchemy.git
+cd media-alchemy
 
-### Run locally
-To run the notebooks locally, you can clone the repository and open the notebooks in Jupyter Notebook or in your IDE. Remember to install the libraries using the file pyproject.toml 
+pip install uv
+uv sync
+```
